@@ -2,9 +2,9 @@
 
 :root {
   --color-primary: #4d41c0;
-  --text-gray; #4a4a4a;
+  --text-gray: #4a4a4a;
   --bg-gray: #ddd;
-  --white:#fff;
+  --white: #fff;
 }
 
 * {
@@ -21,7 +21,7 @@ html, body {
 }
 header {
     background-color: var(--color-primary);
-    color:var(--white);
+    color: var(--white);
     height: 60px;
     display: flex;
     align-items: center;
