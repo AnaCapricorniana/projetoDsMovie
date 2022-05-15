@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #4d41c0;
-  --text-gray: #4a4a4a;
-  --bg-gray: #ddd;
-  --white: #fff;
-  --text-light-gray: #aaa;
-  --star-yellow: #FFBB3A;
+    --color-primary: #4d41c0;
+    --text-gray: #4a4a4a;
+    --bg-gray: #ddd;
+    --white: #fff;
+    --text-light-gray: #aaa;
+    --star-yellow: #FFBB3A;
 }
 
 * {
@@ -15,12 +15,20 @@
     font-family: "Open Sans", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    margin:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
-html, body {
+
+html,
+body {
     background-color: var(--bg-gray);
 }
+
 header {
     background-color: var(--color-primary);
     color: var(--white);
@@ -28,44 +36,49 @@ header {
     display: flex;
     align-items: center;
 }
- 
- nav {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
- }
-nav h1{
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
     font-size: 24px;
     font-weight: 700;
 }
 
 
- nav a{
-     font-size: 12px;
-     font-weight: 400;
- }
-a, a:hover {
-  text-decoration: none;
-  color: unset;
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
 }
 
 
-.dsmovie-contact-container{
-display: flex;
-align-items: center;
+.dsmovie-contact-container {
+    display: flex;
+    align-items: center;
 }
 
 .dsmovie-contact-container img {
     margin: 10px;
 }
+
 #dsmovie-card-list {
-    padding: 40px 10px;
+    padding: 0 10px;
 
 
 }
+
 .dsmovie-card {
     width: 100%;
-    
+
 }
 
 .dsmovie-card img {
@@ -75,7 +88,7 @@ align-items: center;
 }
 
 .dsmovie-card-description {
-    background-color:var(--white);
+    background-color: var(--white);
     padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
@@ -83,7 +96,7 @@ align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
     height: 190px;
-    
+
 }
 
 .dsmovie-card-description h3 {
@@ -93,7 +106,7 @@ align-items: center;
     text-align: center;
 }
 
-.dsmovie-card-description-bottom{
+.dsmovie-card-description-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +116,6 @@ align-items: center;
     font: 16px;
     font-weight: 700;
     color: var(--star-yellow)
-
 }
 
 .dsmovie-card-description-bottom img {
@@ -118,13 +130,15 @@ align-items: center;
     color: var(--text-light-gray);
     margin-bottom: 10px;
 }
-.dsmovie-btn, .dsmovie-btn:hover {
+
+.dsmovie-btn,
+.dsmovie-btn:hover {
     width: 180px;
     height: 40px;
-    background-color:var(--color-primary);
+    background-color: var(--color-primary);
     color: var(--white);
-    font-size: 14px ;
-    font-weight: 700px ;
+    font-size: 14px;
+    font-weight: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,17 +152,18 @@ align-items: center;
     max-width: 480px;
 
 }
+
 .dsmovie-form-description {
-background-color: var(--white);
-padding: 20px;
-display: flex;
-flex-direction: column;
-align-items: center;
-border-radius: 0 0 8px 8px;
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
 }
 
 .dsmovie-form {
-width: 100%;
+    width: 100%;
 }
 
 .dsmovie-form-description h3 {
@@ -156,15 +171,17 @@ width: 100%;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.dsmovie-form-group{
+
+.dsmovie-form-group {
     margin-bottom: 20px;
 }
 
 .dsmovie-form-group label {
     font-size: 12px;
-    color:var(--text-light-gray);
+    color: var(--text-light-gray);
 }
-.dsmovie-form-btn-container{
+
+.dsmovie-form-btn-container {
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -172,3 +189,56 @@ width: 100%;
     justify-content: space-between;
 
 }
+
+.dsmovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dsmovie-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dsmovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+
+}
+
+.dsmovie-pagination-box button {
+    width: 40;
+    height: 40;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsmovie-pagination-box button img {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(36%) saturate(5316%) hue-rotate(239deg);
+
+}
+
+.dsmovie-pagination-box button:disabled {
+    border: 1px solid var(--text-light-gray);
+
+}
+
+.dsmovie-pagination-box button:disabled img {
+    fill: unset;
+}
+
+.dsmovie-flip-horizontal {
+    transform: rotate(180deg);
+}
+
+    
