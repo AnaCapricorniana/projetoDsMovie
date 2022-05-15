@@ -131,8 +131,7 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.dsmovie-btn,
-.dsmovie-btn:hover {
+.dsmovie-btn,.dsmovie-btn:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -234,7 +233,7 @@ a:hover {
 }
 
 .dsmovie-pagination-box button:disabled img {
-    fill: unset;
+    filter: unset;
 }
 
 .dsmovie-flip-horizontal {
